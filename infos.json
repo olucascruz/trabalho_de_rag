@@ -1,0 +1,139 @@
+{
+  "restaurante": {
+    "nome": "Sabores do Amazonas",
+    "historia": "O restaurante Sabores do Amazonas foi inaugurado em 2015, no centro histórico de Manaus. Criado por dois chefs locais, tem como missão valorizar a culinária amazônica e oferecer pratos típicos preparados com ingredientes regionais, como peixes de rio, frutas nativas e temperos tradicionais. O ambiente é acolhedor, com decoração inspirada na floresta amazônica e artesanato indígena.",
+    "informacoes_funcionamento": {
+      "endereco": "Avenida Eduardo Ribeiro, 456 – Centro, Manaus – AM",
+      "telefone": "(92) 4000-1234",
+      "horario": {
+        "segunda_a_sexta": "11h – 15h / 18h – 23h",
+        "sabado": "11h – 23h",
+        "domingo": "11h – 17h"
+      }
+    },
+    "cardapio": {
+      "pratos_principais": [
+        {
+          "nome": "Tambaqui Assado na Brasa",
+          "preco": "R$ 65,00",
+          "ingredientes": "tambaqui inteiro assado, farofa de banana-da-terra, vinagrete regional e arroz branco."
+        },
+        {
+          "nome": "Caldeirada de Tucunaré",
+          "preco": "R$ 58,00",
+          "ingredientes": "tucunaré fresco, caldo de peixe, leite de coco, pimentão, tomate, cebola, coentro e pimenta-de-cheiro."
+        },
+        {
+          "nome": "Filhote ao Molho de Cupuaçu",
+          "preco": "R$ 72,00",
+          "ingredientes": "filé de filhote grelhado, molho cremoso de cupuaçu, purê de macaxeira e legumes salteados."
+        },
+        {
+          "nome": "Pirarucu de Casaca",
+          "preco": "R$ 80,00",
+          "ingredientes": "filé de pirarucu, farofa de castanha-do-pará, cebola caramelizada, tomate e azeite de dendê."
+        },
+        {
+          "nome": "Tacacá Gourmet",
+          "preco": "R$ 35,00",
+          "ingredientes": "tucupi, goma de tapioca, jambu, camarão seco, alho e pimenta-de-cheiro."
+        },
+        {
+          "nome": "Moqueca de Pirarucu",
+          "preco": "R$ 68,00",
+          "ingredientes": "pirarucu fresco, leite de coco, azeite de dendê, pimentões, tomates, coentro e arroz branco."
+        },
+        {
+          "nome": "Bacalhau à Amazonense",
+          "preco": "R$ 75,00",
+          "ingredientes": "bacalhau dessalgado, palmito pupunha, cebola, tomate, pimentões, azeite de oliva e castanha-do-pará."
+        },
+        {
+          "nome": "Frango ao Tucupi com Jambu",
+          "preco": "R$ 50,00",
+          "ingredientes": "pedaços de frango cozidos no tucupi, folhas de jambu, alho, cebola e pimenta-de-cheiro."
+        },
+        {
+          "nome": "Carne de Sol com Macaxeira",
+          "preco": "R$ 55,00",
+          "ingredientes": "carne de sol grelhada, macaxeira cozida, manteiga de garrafa, cebola e coentro."
+        },
+        {
+          "nome": "Costela de Boi na Brasa com Farofa de Castanha",
+          "preco": "R$ 85,00",
+          "ingredientes": "costela assada lentamente, farofa de castanha-do-pará, vinagrete de pimenta e mandioca frita."
+        }
+      ],
+      "sobremesas": [
+        {
+          "nome": "Sorvete de Açaí com Tapioca",
+          "preco": "R$ 20,00"
+        },
+        {
+          "nome": "Mousse de Cupuaçu",
+          "preco": "R$ 18,00"
+        }
+      ],
+      "bebidas": [
+        {
+          "nome": "Suco natural (açaí, cupuaçu, taperebá, graviola)",
+          "preco": "R$ 12,00"
+        },
+        {
+          "nome": "Cervejas artesanais de Manaus",
+          "preco": "R$ 16,00"
+        },
+        {
+          "nome": "Caipirinha de Tucupi Preto",
+          "preco": "R$ 18,00"
+        }
+      ]
+    },
+    "recomendacoes_combinacoes": [
+      {
+        "prato": "Tambaqui Assado na Brasa",
+        "harmonizacao": "cervejas artesanais regionais ou suco de taperebá."
+      },
+      {
+        "prato": "Caldeirada de Tucunaré",
+        "harmonizacao": "vinho branco leve ou caipirinha de tucupi preto."
+      },
+      {
+        "prato": "Filhote ao Molho de Cupuaçu",
+        "harmonizacao": "vinho tinto suave ou suco de cupuaçu."
+      },
+      {
+        "sobremesa": "Sorvete de Açaí com Tapioca",
+        "harmonizacao": "licor de açaí ou cachaça de jambu."
+      },
+      {
+        "prato": "Pirarucu de Casaca",
+        "harmonizacao": "cervejas artesanais claras ou vinho branco seco."
+      },
+      {
+        "prato": "Tacacá Gourmet",
+        "harmonizacao": "suco de açaí ou caipirinha de limão siciliano para equilibrar o sabor intenso do tucupi."
+      },
+      {
+        "prato": "Moqueca de Pirarucu",
+        "harmonizacao": "vinho branco fresco ou cerveja pilsen leve."
+      },
+      {
+        "prato": "Bacalhau à Amazonense",
+        "harmonizacao": "vinho branco encorpado ou cerveja tipo lager."
+      },
+      {
+        "prato": "Frango ao Tucupi com Jambu",
+        "harmonizacao": "caipirinha de tucupi, suco de taperebá ou cerveja artesanal leve."
+      },
+      {
+        "prato": "Carne de Sol com Macaxeira",
+        "harmonizacao": "cachaça envelhecida ou cerveja tipo IPA."
+      },
+      {
+        "prato": "Costela de Boi na Brasa com Farofa de Castanha",
+        "harmonizacao": "vinho tinto robusto ou cerveja stout."
+      }
+    ]
+  }
+}

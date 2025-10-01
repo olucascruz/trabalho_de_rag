@@ -1,0 +1,31 @@
+História: O restaurante Sabores do Amazonas foi inaugurado em 2015, no centro histórico de Manaus. Criado por dois chefs locais, tem como missão valorizar a culinária amazônica e oferecer pratos típicos preparados com ingredientes regionais, como peixes de rio, frutas nativas e temperos tradicionais.
+Ambiente: Acolhedor, com decoração inspirada na floresta amazônica e artesanato indígena.
+Endereço: Avenida Eduardo Ribeiro, 456 – Centro, Manaus – AM
+Telefone: (92) 4000-1234
+Horário: Segunda a Sexta: 11h – 15h / 18h – 23h; Sábado: 11h – 23h; Domingo: 11h – 17h
+Prato: Tambaqui Assado na Brasa – R$ 65,00. Ingredientes: tambaqui inteiro assado, farofa de banana-da-terra, vinagrete regional e arroz branco.
+Prato: Caldeirada de Tucunaré – R$ 58,00. Ingredientes: tucunaré fresco, caldo de peixe, leite de coco, pimentão, tomate, cebola, coentro e pimenta-de-cheiro.
+Prato: Filhote ao Molho de Cupuaçu – R$ 72,00. Ingredientes: filé de filhote grelhado, molho cremoso de cupuaçu, purê de macaxeira e legumes salteados.
+Prato: Pirarucu de Casaca – R$ 80,00. Ingredientes: filé de pirarucu, farofa de castanha-do-pará, cebola caramelizada, tomate e azeite de dendê.
+Prato: Tacacá Gourmet – R$ 35,00. Ingredientes: tucupi, goma de tapioca, jambu, camarão seco, alho e pimenta-de-cheiro.
+Prato: Moqueca de Pirarucu – R$ 68,00. Ingredientes: pirarucu fresco, leite de coco, azeite de dendê, pimentões, tomates, coentro e arroz branco.
+Prato: Bacalhau à Amazonense – R$ 75,00. Ingredientes: bacalhau dessalgado, palmito pupunha, cebola, tomate, pimentões, azeite de oliva e castanha-do-pará.
+Prato: Frango ao Tucupi com Jambu – R$ 50,00. Ingredientes: pedaços de frango cozidos no tucupi, folhas de jambu, alho, cebola e pimenta-de-cheiro.
+Prato: Carne de Sol com Macaxeira – R$ 55,00. Ingredientes: carne de sol grelhada, macaxeira cozida, manteiga de garrafa, cebola e coentro.
+Prato: Costela de Boi na Brasa com Farofa de Castanha – R$ 85,00. Ingredientes: costela assada lentamente, farofa de castanha-do-pará, vinagrete de pimenta e mandioca frita.
+Sobremesa: Sorvete de Açaí com Tapioca – R$ 20,00
+Sobremesa: Mousse de Cupuaçu – R$ 18,00
+Bebida: Suco natural (açaí, cupuaçu, taperebá, graviola) – R$ 12,00
+Bebida: Cervejas artesanais de Manaus – R$ 16,00
+Bebida: Caipirinha de Tucupi Preto – R$ 18,00
+Recomendação: Tambaqui Assado na Brasa harmoniza com cervejas artesanais regionais ou suco de taperebá.
+Recomendação: Caldeirada de Tucunaré combina bem com vinho branco leve ou caipirinha de tucupi preto.
+Recomendação: Filhote ao Molho de Cupuaçu pode ser acompanhado por um vinho tinto suave ou suco de cupuaçu.
+Recomendação: Sorvete de Açaí com Tapioca é ideal com licor de açaí ou cachaça de jambu.
+Recomendação: Pirarucu de Casaca acompanha bem cervejas artesanais claras ou vinho branco seco.
+Recomendação: Tacacá Gourmet combina com suco de açaí ou caipirinha de limão siciliano para equilibrar o sabor intenso do tucupi.
+Recomendação: Moqueca de Pirarucu harmoniza com vinho branco fresco ou cerveja pilsen leve.
+Recomendação: Bacalhau à Amazonense vai bem com vinho branco encorpado ou cerveja tipo lager.
+Recomendação: Frango ao Tucupi com Jambu combina com caipirinha de tucupi, suco de taperebá ou cerveja artesanal leve.
+Recomendação: Carne de Sol com Macaxeira acompanha cachaça envelhecida ou cerveja tipo IPA.
+Recomendação: Costela de Boi na Brasa com Farofa de Castanha combina com vinho tinto robusto ou cerveja stout.
