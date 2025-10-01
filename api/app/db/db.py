@@ -2,8 +2,11 @@ from sentence_transformers import SentenceTransformer, util
 import chromadb
 import os
 # Dados de exemplo
+path_db = os.path.abspath("app\db\meu_banco_vetorial")
+
 
 def save_to_chromadb():
+    print(path_db)
     document_path = "document.txt"
     document_content = []
     if os.path.exists(document_path):
@@ -20,7 +23,7 @@ def save_to_chromadb():
     ids_documentos = [f"doc_{i}" for i in range(len(document_content))]
     model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
     embeddings_documentos = model.encode(document_content).tolist()
-    client_db = chromadb.PersistentClient(path="./meu_banco_vetorial")
+    client_db = chromadb.PersistentClient(path=path_db)
     collection = client_db.get_or_create_collection(name="doc_rag")
     collection.add(
         embeddings=embeddings_documentos,
@@ -37,7 +40,8 @@ def save_to_chromadb():
         print("Nenhum documento encontrado na coleção.")
 
 def load_from_chromadb(query_texto):
-    client_db = chromadb.PersistentClient(path="./meu_banco_vetorial")
+    print(path_db)
+    client_db = chromadb.PersistentClient(path=path_db)
     model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
     query_embedding = model.encode([query_texto]).tolist()
     collection = client_db.get_or_create_collection(name="doc_rag")
@@ -46,4 +50,5 @@ def load_from_chromadb(query_texto):
         query_embeddings=query_embedding,
         n_results=3
     )
-    return results
+    documents = results["documents"][0] 
+    return documents
