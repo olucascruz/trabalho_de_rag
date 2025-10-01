@@ -1,20 +1,12 @@
 import streamlit as st
-from api.app.chat_backend import chat_with_rag
+import requests
 
 st.set_page_config(page_title="Sabores do Amazonas - Chat", page_icon="🍽️")
 st.title("🍽️ Sabores do Amazonas - Assistente Virtual")
 
-# Inicializa o histórico na sessão
+
 if "history" not in st.session_state:
-    st.session_state.history = [
-        {
-            "role": "system",
-            "content": (
-                "Você é um assistente especializado no restaurante Sabores do Amazonas. "
-                "Responda perguntas sobre pratos, ingredientes, preços, horários, endereço e recomendações."
-            ),
-        }
-    ]
+    st.session_state.history = []
 
 # Exibir mensagens do histórico
 for msg in st.session_state.history:
@@ -32,7 +24,8 @@ if user_input:
         st.markdown(user_input)
 
     # Chama o backend para obter resposta real
-    resposta = chat_with_rag(st.session_state.history.copy())
+    response = requests.post(url="http://127.0.0.1:8000/prompt/", json={"prompt": user_input})
+    resposta = response.json()["message"]
 
     # Adiciona resposta do backend
     st.session_state.history.append({"role": "assistant", "content": resposta})
