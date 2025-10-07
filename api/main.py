@@ -21,6 +21,6 @@ async def protected_route(request: PromptRequest):
     # Rag
     rag_results = load_from_chromadb(request.prompt)
 
-    # response = chat(request.prompt, rag_results)
+    response = chat(request.prompt, rag_results)
     
-    return {"message": rag_results}
+    return {"message": response}
